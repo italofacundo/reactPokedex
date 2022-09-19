@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Pkmn';
-    src: url('assets/fonts/pkmn_frlg.ttf') format('truetype');
+    src: url('../assets/fonts/pkmn_frlg.ttf') format('truetype');
 }
 
 * {
@@ -26,7 +26,7 @@ body,
 }
 
 body {
-    background-image: url("assets/body_bg.png");
+    background-image: url("../assets/body_bg.png");
 }
 
 .main-content {
@@ -107,7 +107,7 @@ body {
     margin-top: 40px;
     display: flex;
     justify-content: center;
-    background-image: url("./assets/firered_intro.gif");
+    background-image: url("../assets/firered_intro.gif");
     filter: grayscale(20%);
     background-position: center;
     background-size: cover;
@@ -176,7 +176,7 @@ body {
     border: 2px solid black;
     height: 100%;
     width: 100%;
-    background-image: url("assets/grass_wallpaper.jpg");
+    background-image: url("../assets/grass_wallpaper.jpg");
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -331,73 +331,73 @@ body {
 }
 
 .pokemon-card.type-fairy {
-    background-image: url("assets/fairy_wallpaper.jpg");
+    background-image: url("../assets/fairy_wallpaper.jpg");
 }
 
 .pokemon-card.type-steel {
-    background-image: url("assets/steel_wallpaper.jpg");
+    background-image: url("../assets/steel_wallpaper.jpg");
 }
 
 .pokemon-card.type-dark {
-    background-image: url("assets/dark_wallpaper.jpg");
+    background-image: url("../assets/dark_wallpaper.jpg");
 }
 
 .pokemon-card.type-dragon {
-    background-image: url("assets/dragon_wallpaper.jpg");
+    background-image: url("../assets/dragon_wallpaper.jpg");
 }
 
 .pokemon-card.type-ghost {
-    background-image: url("assets/ghost_wallpaper.jpg");
+    background-image: url("../assets/ghost_wallpaper.jpg");
 }
 
 .pokemon-card.type-rock {
-    background-image: url("assets/rock_wallpaper.jpg");
+    background-image: url("../assets/rock_wallpaper.jpg");
 }
 
 .pokemon-card.type-bug {
-    background-image: url("assets/bug_wallpaper.jpg");
+    background-image: url("../assets/bug_wallpaper.jpg");
 }
 
 .pokemon-card.type-psychic {
-    background-image: url("assets/psychic_wallpaper.jpg");
+    background-image: url("../assets/psychic_wallpaper.jpg");
 }
 
 .pokemon-card.type-flying {
-    background-image: url("assets/flying_wallpaper.jpg");
+    background-image: url("../assets/flying_wallpaper.jpg");
 }
 
 .pokemon-card.type-ground {
-    background-image: url("assets/ground_wallpaper.jpg");
+    background-image: url("../assets/ground_wallpaper.jpg");
 }
 
 .pokemon-card.type-poison {
-    background-image: url("assets/poison_wallpaper.jpg");
+    background-image: url("../assets/poison_wallpaper.jpg");
 }
 
 .pokemon-card.type-fighting {
-    background-image: url("assets/fighting_wallpaper.jpg");
+    background-image: url("../assets/fighting_wallpaper.jpg");
 }
 
 .pokemon-card.type-ice {
-    background-image: url("assets/ice_wallpaper.jpg");
+    background-image: url("../assets/ice_wallpaper.jpg");
 }
 
 .pokemon-card.type-grass {
-    background-image: url("assets/grass_wallpaper.jpg");
+    background-image: url("../assets/grass_wallpaper.jpg");
 }
 
 .pokemon-card.type-electric {
-    background-image: url("assets/electric_wallpaper.jpg");
+    background-image: url("../assets/electric_wallpaper.jpg");
 }
 
 .pokemon-card.type-water {
-    background-image: url("assets/water_wallpaper.jpg");
+    background-image: url("../assets/water_wallpaper.jpg");
 }
 
 .pokemon-card.type-fire {
-    background-image: url("assets/fire_wallpaper.jpg");
+    background-image: url("../assets/fire_wallpaper.jpg");
 }
 
 .pokemon-card.type-normal {
-    background-image: url("assets/normal_wallpaper.jpg");
+    background-image: url("../assets/normal_wallpaper.jpg");
 }
