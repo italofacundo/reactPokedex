@@ -107,7 +107,7 @@ body {
     margin-top: 40px;
     display: flex;
     justify-content: center;
-    background-image: url("assets/firered_intro.gif");
+    background-image: url("./assets/firered_intro.gif");
     filter: grayscale(20%);
     background-position: center;
     background-size: cover;
