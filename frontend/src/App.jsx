@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './App.css';
-import axios from 'axios';
 import getPokemon, { getPokemonList } from './server/pokeapi';
 
 function MainPage() {
@@ -185,7 +184,7 @@ function PokemonView({ pokemonFilter, search }) {
           if (id === prevPokemonIds[index]) {
             promiseArray.push(pokemonRequests[index]);
           } else {
-            const promise = axios.get(`/api/pokemon/${id}`);
+            const promise = getPokemon(id);
             promiseArray.push(promise);
           }
         }
