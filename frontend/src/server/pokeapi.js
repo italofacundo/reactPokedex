@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'https://react-pokedex-backend.herokuapp.com/api/pokemon';
+const baseUrl = 'https://reactpokedexbackend.onrender.com/api/pokemon';
 
 const getPokemon = (id) => axios.get(`${baseUrl}/${id}`);
 
