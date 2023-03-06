@@ -1,2 +1,2 @@
 # reactPokedex
-https://iafs1.github.io/reactPokedex/
+https://italofacundo.github.io/reactPokedex/
